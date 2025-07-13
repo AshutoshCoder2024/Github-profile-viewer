@@ -16,6 +16,7 @@ function Body() {
     const data = await response.json();
     setprofile(data); 
   }
+
   
 
   async function Getprofile_by_name(name) {

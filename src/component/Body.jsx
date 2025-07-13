@@ -27,7 +27,7 @@ function Body() {
 
   useEffect(() => {
     Getprofile(10);
-  }, []); // [] means only run once when the no dependency
+  }, []); 
 
 
 
@@ -59,7 +59,6 @@ function Body() {
       </div>
 
       <div id="profiles_container">
-        {/* in below line the map is part of the java script so we have to writ it inside the {} as we write code in jsx   */}
         {profiles.map((value,index) => {
           return (
             <div className="card" key={value.id || index }>

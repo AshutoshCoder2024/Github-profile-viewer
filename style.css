@@ -1,43 +1,54 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Arial", sans-serif;
-  background-color: #1e1e2f; 
-  color: #e0e0e0; 
+  background-color: #1e1e2f;
+  color: #e0e0e0;
+  min-height: 100vh;
 }
 
 #heading {
-  /* width: 100%; */
-  height: 200px;
+  width: 100%;
+  min-height: 120px;
+  height: 18vw;
+  max-height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #4a4e69; 
-  margin-bottom: 50px;
+  background-color: #4a4e69;
+  margin-bottom: 3vw;
 }
 
 #heading h1 {
-  color: #ff4081; 
-  font-size: 50px;
+  color: #ff4081;
+  font-size: clamp(1.5rem, 6vw, 3.2rem);
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
+  margin: 0;
 }
 
 #profiles_container {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 3vw;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  padding: 0 20px;
+  gap: 2vw;
+  padding: 0 2vw;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .card {
-  width: 250px;
-  height: 300px;
+  width: min(90vw, 250px);
+  height: min(60vw, 300px);
   margin: auto;
   border: 2px solid #4a4e69;
   border-radius: 10px;
@@ -45,8 +56,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #2c2c3e; 
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  background-color: #2c2c3e;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
 }
 
 .card:hover {
@@ -56,7 +68,9 @@ body {
 
 img {
   border-radius: 50%;
-  height: 150px;
+  width: min(32vw, 150px);
+  height: min(32vw, 150px);
+  object-fit: cover;
   transition: transform 0.3s ease;
 }
 
@@ -93,9 +107,9 @@ img {
 }
 
 .input {
-  width: 300px;
+  width: min(80vw, 300px);
   padding: 10px;
-  font-size: 15px;
+  font-size: 1rem;
   border: 2px solid #4a4e69;
   border-radius: 5px;
   background-color: #2c2c3e;
@@ -125,57 +139,87 @@ img {
   transform: scale(1.1); 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  #heading {
+    height: 14vw;
+    min-height: 90px;
+    max-height: 150px;
+  }
   #heading h1 {
-    font-size: 35px;
+    font-size: clamp(1.2rem, 5vw, 2.2rem);
   }
-  #profiles_container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  #profiles_container {
+    gap: 10px;
   }
-
   .card {
-    width: 200px;
-    height: 250px;
+    margin-top: 10px;
+    width: min(90vw, 200px);
+    height: min(60vw, 250px);
   }
-
-
   img {
-    height: 120px;
+    width: min(28vw, 120px);
+    height: min(28vw, 120px);
   }
-
-  #but {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-  }
-
   .input {
-    width: 70%;
-  }
-
-  #but button {
-    width: 60%;
+    width: min(90vw, 220px);
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   #heading {
-    height: 150px;
+    height: 12vw;
+    min-height: 70px;
+    max-height: 110px;
   }
-
   #heading h1 {
-    font-size: 28px;
+    font-size: clamp(1rem, 4vw, 1.5rem);
   }
-
   .card {
-    width: 180px;
-    height: 220px;
+    width: min(98vw, 160px);
+    height: min(70vw, 180px);
+    margin-top: 10px;
   }
-
   img {
-    height: 100px;
+    width: min(24vw, 90px);
+    height: min(24vw, 90px);
+  }
+  .input {
+    width: min(98vw, 150px);
+  }
+  #but {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  #but button {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 400px) {
+  #heading {
+    height: 50px;
+    min-height: 40px;
+    max-height: 60px;
+  }
+  #heading h1 {
+    font-size: 1rem;
+  }
+  .card {
+    width: 98vw;
+    height: 120px;
+    padding: 5px 0;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+  }
+  .input {
+    width: 90vw;
+    font-size: 0.9rem;
+  }
+  #but button {
+    width: 90vw;
+    font-size: 0.9rem;
   }
 }

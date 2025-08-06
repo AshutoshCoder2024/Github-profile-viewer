@@ -18,7 +18,7 @@ GitHub Profile Viewer is an interactive web application that lets you search for
 
 ## Live Demo
 
-[https://github-profile-viewer-blush.vercel.app/](#) 
+[https://github-profile-viewer-blush.vercel.app](#) 
 
 
 

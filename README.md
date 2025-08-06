@@ -21,7 +21,8 @@ GitHub Profile Viewer is an interactive web application that lets you search for
 [https://github-profile-viewer-blush.vercel.app/](#) <!-- Add your live demo link here -->
 
 ## Screenshots
-<img width="1600" height="10" alt="Screenshot 2025-08-07 003547" src="https://github.com/user-attachments/assets/a3d41557-3327-4fef-9ee9-4fa42326ab25" />
+<img width="1000" height="777" alt="Screenshot 2025-08-07 003547" src="https://github.com/user-attachments/assets/a3d41557-3327-4fef-9ee9-4fa42326ab25" />
+<img width="1000" height="777" alt="Screenshot 2025-08-07 004018" src="https://github.com/user-attachments/assets/a1e8bed1-443e-467d-8922-50b0c9ad1289" />
 
 
 

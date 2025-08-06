@@ -121,14 +121,6 @@ The interface is mobile-first and responsive:
 - Touch-friendly on mobile devices
 - Optimized for all screen sizes
 
-## Future Plans
-
-- [ ] Add repository listing
-- [ ] Show user statistics
-- [ ] Add profile comparison
-- [ ] Implement dark/light theme toggle
-- [ ] Add pagination for results 
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -147,4 +139,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - React community
 - Open source community
 
-Made with ❤️ by [AshutoshCoder2024](https://github.com/AshutoshCoder2024)
+built by  [AshutoshCoder2024](https://github.com/AshutoshCoder2024)

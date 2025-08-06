@@ -21,8 +21,8 @@ GitHub Profile Viewer is an interactive web application that lets you search for
 [View Live Demo](#) <!-- Add your live demo link here -->
 
 ## Screenshots
+<img width="1786" height="1037" alt="Screenshot 2025-08-07 003547" src="https://github.com/user-attachments/assets/a3d41557-3327-4fef-9ee9-4fa42326ab25" />
 
-<!-- Add your screenshots here -->
 
 ## Tech Stack
 

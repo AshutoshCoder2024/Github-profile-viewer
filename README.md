@@ -18,10 +18,12 @@ GitHub Profile Viewer is an interactive web application that lets you search for
 
 ## Live Demo
 
-[View Live Demo](#) <!-- Add your live demo link here -->
+[https://github-profile-viewer-blush.vercel.app/](#) <!-- Add your live demo link here -->
 
 ## Screenshots
-<img width="1786" height="1037" alt="Screenshot 2025-08-07 003547" src="https://github.com/user-attachments/assets/a3d41557-3327-4fef-9ee9-4fa42326ab25" />
+<img width="1600" height="10" alt="Screenshot 2025-08-07 003547" src="https://github.com/user-attachments/assets/a3d41557-3327-4fef-9ee9-4fa42326ab25" />
+
+
 
 
 ## Tech Stack
